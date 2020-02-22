@@ -12,10 +12,6 @@ RUN set -x; \
             git \
             vim \
             mc \
-            python3-dev \
-            python3-pandas \
-            default-jdk \
-            default-jre \
             libreoffice-writer \
             libreoffice-calc \
         && rm -rf /var/lib/apt/lists/*
